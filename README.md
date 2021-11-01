@@ -13,7 +13,7 @@ To avoid bounced emails please submit your results by uploading the relevant ZIP
 
 There is an open source SpaceX API [https://github.com/r-spacex/SpaceX-API/tree/master/docs#rspacex-api-docs](https://github.com/r-spacex/SpaceX-API/tree/master/docs#rspacex-api-docs) where you can get all the launch details, crew, payloads etc for the rockets.
 
-Please use at these 3 endpoints:
+Please use at least these 3 endpoints:
 
 ```
 // Get upcoming launch details
