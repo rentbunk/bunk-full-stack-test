@@ -33,8 +33,8 @@ The task is to create an application that presents the upcoming launches. We wan
 ### Languages
 
 - JavaScript - TypeScript
-- Angular 8 + (preferred)
-- Node 10 + (preferred)
+- Angular 8+ & RxJS (preferred) 
+- Node 10+ 
 
 
 
