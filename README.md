@@ -67,6 +67,8 @@ Each launch detail view has at least:
 1. Crew member details
 2. Rocket details
 
+Fetch all data from the api server side
+
 
 # Technical questions
 
