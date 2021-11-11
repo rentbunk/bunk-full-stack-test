@@ -43,7 +43,7 @@ The task is to create an application that presents the upcoming launches. We wan
 Feel free to spend as much or as little time on the exercise as you like as long as the following requirements have been met. We also take into consideration the [Answers to technical questions.md](#technical-questions) file and what you would like to have added if you had more time. You should look at this as the complete solution, it's much quicker to explain what you would like to have done than code it.
 
 - Your code should compile and run in one step
-- You **must** include tests
+- You **must** include a couple tests to show understanding
 
 ### User Stories
 
