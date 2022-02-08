@@ -2,9 +2,6 @@
 
 ![](https://nypost.com/wp-content/uploads/sites/2/2020/09/ELON.SPACEX.web_.jpg?quality=80&strip=all)
 
-Thank you for taking the time to do our technical test. It consists of two parts:
-
-* [A coding test](#coding-test)
 
 To avoid bounced emails please submit your results by uploading the relevant ZIP file to a shared Google Drive folder or public repository.
 
