@@ -5,7 +5,6 @@
 Thank you for taking the time to do our technical test. It consists of two parts:
 
 * [A coding test](#coding-test)
-* [A few technical questions](#technical-questions)
 
 To avoid bounced emails please submit your results by uploading the relevant ZIP file to a shared Google Drive folder or public repository.
 
@@ -19,7 +18,7 @@ Please use at least these 3 endpoints (fetch server-side only):
 // Get upcoming launch details
 https://api.spacexdata.com/v4/launches/upcoming
 
-// Get crew names
+// Get crew names (if there are any - most launches are unmanned)
 https://api.spacexdata.com/v4/crew/{{id}}
 
 // Get rocket
@@ -27,7 +26,7 @@ https://api.spacexdata.com/v4/rockets/{{id}}
 
 ```
 
-The task is to create an application that presents the upcoming launches. We wanna get hyped so a countdown for each launch is essential and we want to know each crew member and the rocket that's launching.  
+The task is to create an application that presents the upcoming launches. The app should consist of a node backend for consuming the API, and an Angular frontend for displaying the data in some cards. We wanna get hyped so a countdown for each launch is essential and we want to know each crew member and the rocket that's launching.  
 
 
 ### Languages
@@ -37,13 +36,10 @@ The task is to create an application that presents the upcoming launches. We wan
 - Node 10+ 
 
 
-
 ### Task requirements
 
-Feel free to spend as much or as little time on the exercise as you like as long as the following requirements have been met. We also take into consideration the [Answers to technical questions.md](#technical-questions) file and what you would like to have added if you had more time. You should look at this as the complete solution, it's much quicker to explain what you would like to have done than code it.
+Feel free to spend as much or as little time on the exercise as you like as long as the following requirements have been met.
 
-- Your code should compile and run in one step
-- You **must** include a couple tests to show understanding
 
 ### User Stories
 
@@ -53,7 +49,7 @@ Given I am a **user running the application**
 <br/> When I **click on a launch**<br/> Then I want to see a **detail view of a launch**<br/> And I want to see **the rocket and crew in more detail** (pick any details)
 
 
-#### Acceptance criteria
+### Acceptance criteria
 
 Each launch card has a:
 
@@ -68,15 +64,5 @@ Each launch detail view has at least:
 2. Rocket details
 
 Fetch all data from the api server side
-
-
-# Technical questions
-
-Please answer the following questions in a markdown file called `Answers to technical questions.md`.
-
-1. How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.
-2. What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
-3. How would you track down a performance issue in production? Have you ever had to do this?
-
 
 #### Thanks for your time, we look forward to hearing from you!
