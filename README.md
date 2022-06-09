@@ -26,7 +26,7 @@ https://api.spacexdata.com/v4/rockets/{{id}}
 The task is to create an application that presents the upcoming launches. The app should consist of a node backend for consuming the API, and an Angular frontend for displaying the data in some cards. We wanna get hyped so a countdown for each launch is essential and we want to know each crew member and the rocket that's launching.  
 
 
-### Languages
+### Technologies
 
 - TypeScript
 - Angular
