@@ -28,9 +28,9 @@ The task is to create an application that presents the upcoming launches. The ap
 
 ### Languages
 
-- JavaScript - TypeScript
-- Angular 8+ & RxJS (preferred) 
-- Node 10+ 
+- TypeScript
+- Angular
+- Node
 
 
 ### Task requirements
